@@ -1,13 +1,12 @@
+import Slots from "./Slots"
 import './App.css'
-
-import Greeter from './Greeter';
 
 function App() {
 return(
 <div>
-  <Greeter person="Bill"/>
-<Greeter person="Amy"/>
- </div>
+ <Slots val1="a" val2="a" val3="a"/>
+ <Slots val1="d" val2="b" val3="d"/>
+</div>
 );
 }
 
